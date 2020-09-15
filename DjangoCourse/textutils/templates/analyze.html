@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Analyzing your text...</title>
+</head>
+<body bgcolor="green">
+{% block content %}
+<h1>Your analyzed text - {{ purpose }}</h1>
+<p>
+    {{ analyzed_text }}
+</p>
+<h1>How much chracters are there?</h1>
+<p>
+    {{ Characters }}
+</p>
+{% endblock %}
+</body>
+</html>
